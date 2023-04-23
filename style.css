@@ -21,7 +21,7 @@ body {
 
 html {
     margin: 0;
-    
+
 }
 
 .container {
@@ -191,23 +191,21 @@ footer {
     margin-right: 120px;
 }
 
-/*  RESPONSIVIDADE */ 
+/*  RESPONSIVIDADE */
 
 @media (max-width: 900px) {
     html {
         overflow: hidden;
     }
+
     .ul {
         display: none;
     }
-    body {
-        background: #e3c065;
-        background-attachment: scroll;
-    background-size: 100%;
-    }
 
-    .section-footer {
-        
+    body {
+        background: #f5c60cac;
+        background-attachment: scroll;
+        background-size: 100%;
     }
 
     .nav {
@@ -222,9 +220,11 @@ footer {
     .empresa {
         display: none;
     }
+
     #criative {
         display: flex;
     }
+
     .spotify {
         display: none;
     }
