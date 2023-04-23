@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "nunito", sans-serif;
+}
+
+body {
+    background-image: url('../DESAFIO-03/imagem/Mulher.jpg');
+    background-size: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+html {
+    margin: 0;
+    
+}
+
+.container {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    background: black;
+    background-color: #191414;
+    opacity: 0.5;
+    position: fixed;
+    width: 100vw;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+}
+
+.ul button {
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.ul li {
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+}
+
+.ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "nunito" sans-serif;
+}
+
+.inscrever {
+    border-left: 3px solid white;
+    padding: 0px 0px 0px 10px;
+}
+
+
+/* Body  */
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-center {
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-center h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 1px 10px black;
+}
+
+.content-center h6 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 0px 1px 10px black;
+    margin-bottom: 10px;
+}
+
+.button-content {
+    height: 40px;
+    width: 200px;
+    border-radius: 19px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background: #1DB954;
+    font-family: "montserrat", sans-serif;
+    box-shadow: 1px 0px 8px 0px #1DB954;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOOTER  */
+
+.section-footer {
+    background-color: #191414;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 20px;
+    line-height: 41px;
+}
+
+.spotify img {
+    width: 100px;
+    height: 100px;
+}
+
+.empresa {
+    margin-top: 45px;
+}
+
+.empresa img {
+    width: 30px;
+    height: 50px;
+    color: white;
+}
+
+#criative {
+    background: white;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 10px 0px #1DB954;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: gray;
+    background: #191414;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: 140px;
+}
+
+.dev {
+    margin-right: 120px;
+}
+
+/*  RESPONSIVIDADE */ 
+
+@media (max-width: 900px) {
+    html {
+        overflow: hidden;
+    }
+    .ul {
+        display: none;
+    }
+    body {
+        background: #e3c065;
+        background-attachment: scroll;
+    background-size: 100%;
+    }
+
+    .section-footer {
+        
+    }
+
+    .nav {
+        margin: auto;
+    }
+
+    .nav img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .empresa {
+        display: none;
+    }
+    #criative {
+        display: flex;
+    }
+    .spotify {
+        display: none;
+    }
+
+    .empresa img {
+        width: 60px;
+    }
+
+    .content-center {
+        gap: 30px;
+    }
+
+    .content-center h6 {
+        font-size: 24px;
+    }
+}
