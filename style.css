@@ -66,6 +66,11 @@ header {
     border: 1px solid white;
     cursor: pointer;
 }
+.ul button:hover {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.8s;
+    color: #1DB954;
+} 
 
 .ul li {
     list-style: none;
@@ -132,6 +137,12 @@ header {
     text-align: center;
     font-weight: bold;
     cursor: pointer;
+}
+
+.button-content:hover {
+    background-color: white;
+    color: #1DB954;
+    transition: background-color 0.8s;
 }
 
 /* FOOOTER  */
