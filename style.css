@@ -64,6 +64,7 @@ header {
     height: 30px;
     border-radius: 8px;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 .ul li {
@@ -155,6 +156,20 @@ header {
     margin-top: 45px;
 }
 
+.empresa ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+
+.empresa ul li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
 .empresa img {
     width: 30px;
     height: 50px;
@@ -162,11 +177,8 @@ header {
 }
 
 #criative {
-    background: white;
-    height: 50px;
-    border-radius: 15px;
-    box-shadow: 1px 0px 10px 0px #1DB954;
     cursor: pointer;
+    font-size: 30px;
 }
 
 footer {
@@ -223,6 +235,7 @@ footer {
 
     #criative {
         display: flex;
+        font-size: 60px;
     }
 
     .spotify {
