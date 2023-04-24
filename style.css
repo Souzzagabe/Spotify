@@ -16,7 +16,6 @@ body {
     background-attachment: fixed;
     margin: 0;
     overflow-x: hidden;
-
 }
 
 html {
@@ -137,12 +136,15 @@ header {
     text-align: center;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .button-content:hover {
     background-color: white;
     color: #1DB954;
     transition: background-color 0.8s;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 /* FOOOTER  */
